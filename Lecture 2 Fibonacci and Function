@@ -4,3 +4,9 @@ def fibn(n):
         fib.append(fib[-1] + fib[-2])
     return fib
 print(fibn(5))
+
+def fib(n):
+    fibi = [1,1]
+    while  len(fibi) < n :
+        fibi.append(fib[-1] + fib[-2])
+    return fibi
