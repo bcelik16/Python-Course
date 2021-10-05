@@ -1,0 +1,6 @@
+def fibn(n):
+    fib = [1, 1]
+    for i in range(1, n):
+        fib.append(fib[-1] + fib[-2])
+    return fib
+print(fibn(5))
